@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import LogoTitle from '../../assets/images/logo-s.png'
 import { Link } from 'react-router-dom'
 import AnimatedLetters from '../AnimatedLetters'
-import Logo from './Logo'
+//import Logo from './Logo'
 import './index.scss'
 import Loader from 'react-loaders'
 
@@ -61,7 +61,7 @@ const Home = () => {
             CONTACT ME{' '}
           </Link>
         </div>
-        <Logo />
+        {/* <Logo /> */}
       </div>
       <Loader type='ball-pulse-sync' />
     </>
