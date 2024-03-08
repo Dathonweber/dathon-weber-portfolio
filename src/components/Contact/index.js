@@ -39,7 +39,7 @@ const Contact = () => {
   }
   return (
     <>
-      <div className='container contact-page'>
+      <div className='map-container contact-page'>
         <div className='text-zone'>
 
           <h1>
