@@ -71,7 +71,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className='info-map'>
+        <div className='info-map d-none d-lg-block'>
           Dathon Weber
           <br />
           United States, <br />
@@ -79,7 +79,7 @@ const Contact = () => {
           <span>dathonweber82@gmail.com</span>
         </div>
 
-        <div className='map-wrap'>
+        <div className='map-wrap d-none d-lg-block'>
           <MapContainer center={[38.4037691,-96.2191085]} zoom={13}>
 
             <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />

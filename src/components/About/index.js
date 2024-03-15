@@ -20,7 +20,7 @@ const About = () => {
   }, [])
   return (
     <>
-    <div className=" about-page">
+    <div className="about-page">
       <div className="text-zone">
         <h1>
           <AnimatedLetters
@@ -55,10 +55,7 @@ const About = () => {
           My technical skills span languages such as React, C#, HTML, CSS, and
           tools like Jira, Bitbucket, AWS, Visual Studio Code. Beyond my
           technical expertise, I am driven by a genuine passion for programming
-          and a commitment to continuous learning. Explore my portfolio to see
-          how my skills and dedication converge to create impactful solutions in
-          web development. Connect with me on LinkedIn or explore my coding
-          journey on Stack Overflow.
+          and a commitment to continuous learning. 
         </p>
       </div>
 
