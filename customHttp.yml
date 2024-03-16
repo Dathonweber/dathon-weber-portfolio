@@ -1,9 +1,6 @@
+
 version: 1
-headers:
-  - pattern: '*.woff'
-    headers:
-      - key: Content-Type
-        value: font/woff
+customHeaders:
   - pattern: '*.woff2'
     headers:
       - key: Content-Type
