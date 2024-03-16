@@ -5,16 +5,18 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import MyWork from './components/My-Work'
+import ParticleComponent from './components/ParticleComponent'
 
 function App() {
   return (
     <>
+      <ParticleComponent />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />}/>
-          <Route path="my-work" element={<MyWork />}/>
-          <Route path="contact" element={<Contact />}/>
+          <Route path="about" element={<About />} />
+          <Route path="my-work" element={<MyWork />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </>

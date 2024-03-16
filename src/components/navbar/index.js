@@ -3,7 +3,6 @@ import './index.scss';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHome, faUser, faEnvelope, faFolderOpen, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,16 +19,16 @@ const Navbar = () => {
       </div>
       {isOpen && (
         <nav>
-          <NavLink exact activeClassName="active" to="/">
+          <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
           </NavLink>
-          <NavLink exact activeClassName="active" className="mobile-about-link" to="/about">
+          <NavLink exact="true" activeclassname="active" className="mobile-about-link" to="/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
           </NavLink>
-          <NavLink exact activeClassName="active" className="mobile-my-work-link" to="/my-work">
+          <NavLink exact="true" activeclassname="active" className="mobile-my-work-link" to="/my-work">
             <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />
           </NavLink>
-          <NavLink exact activeClassName="active" className="mobile-contact-link" to="/contact">
+          <NavLink exact="true" activeclassname="active" className="mobile-contact-link" to="/contact">
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
           </NavLink>
         </nav>
