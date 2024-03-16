@@ -13,16 +13,15 @@ $primary-color: #ffd700;
 
 @font-face {
   font-family: 'La Belle Aurore';
-  src: url('../src/assets/fonts/LaBelleAurore.woff2') format('woff2'),
-  url('../src/assets/fonts/LaBelleAurore.woff') format('.woff');
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Coolvetica';
-  src: url('../src/assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
-  url('../src/assets/fonts/CoolveticaRg-Regular.woff') format('.woff');
+  src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2'),
+  url('./assets/fonts/CoolveticaRg-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
