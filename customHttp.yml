@@ -1,0 +1,10 @@
+version: 1
+headers:
+  - pattern: '*.woff'
+    headers:
+      - key: Content-Type
+        value: font/woff
+  - pattern: '*.woff2'
+    headers:
+      - key: Content-Type
+        value: font/woff2
