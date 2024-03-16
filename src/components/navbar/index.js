@@ -8,7 +8,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const toggleSidebar = () => {
-    console.log('Sidebar Toggled');
     setIsOpen(!isOpen);
   };
 
