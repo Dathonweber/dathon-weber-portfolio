@@ -1,0 +1,26 @@
+.mywork-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    overflow: auto;
+
+    @media (max-width: 767px) {
+        margin-top: 25%;
+
+    }
+
+    .mywork-header {
+        font-size: 53px;
+        color: #Ffd700;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        margin-bottom: 20px;
+
+        @media (max-width: 767px) {
+            font-size: 50px;
+        }
+    }
+}

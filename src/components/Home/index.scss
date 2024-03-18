@@ -1,27 +1,23 @@
-// @font-face {
-//   font-family: 'Coolvetica';
-//   src: url('../../../src/assets/fonts/coolvetica.ttf') format('.ttf');
-// }
-
 .home-page {
 
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 40%;
-        max-height: 90%;
-        @media  screen and (max-width: 850px) {
-          width: auto;
-          top: 45%
-        }
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+
+    @media screen and (max-width: 850px) {
+      width: auto;
+      top: 45%
     }
+  }
 
   h1 {
     color: #fff;
     font-size: 53px;
-    margin:0;
+    margin: 0;
     font-family: 'Coolvetica';
     font-weight: 400;
 
@@ -30,34 +26,34 @@
     }
 
     &::before {
-        content: '<h1>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: -30px;
-        left: 15px;
-        opacity: 0.6;
+      content: '<h1>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: -30px;
+      left: 15px;
+      opacity: 0.6;
 
-        @media (max-width: 767px) {
-          font-size: 14px;
-        }
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
     }
 
     &::after {
-        content: '</h1>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
-        font-size: 18px;
-        position: absolute;
-        margin-top: 18px;
-        margin-left: 15px;
-        animation: fadeIn 1s 1.7s backwards;
-        opacity: 0.6;
+      content: '</h1>';
+      font-family: 'La Belle Aurore';
+      color: #ffd700;
+      font-size: 18px;
+      position: absolute;
+      margin-top: 18px;
+      margin-left: 15px;
+      animation: fadeIn 1s 1.7s backwards;
+      opacity: 0.6;
 
-        @media (max-width: 767px) {
-          font-size: 14px;
-        }
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
     }
 
     img {
@@ -96,8 +92,8 @@
     white-space: nowrap;
 
     &:hover {
-        background: #ffd700;
-        color: #333;
+      background: #ffd700;
+      color: #333;
     }
-}
+  }
 }
