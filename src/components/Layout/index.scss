@@ -17,9 +17,11 @@
   left: 120px;
   font-size: 18px;
   font-family: 'La Belle Aurore';
+
   @media screen and (max-width: 767px) {
     left: 50px;
     bottom: 10%;
+    font-size: 14px;
   }
 }
 
@@ -31,9 +33,11 @@
   left: 120px;
   font-size: 18px;
   font-family: 'La Belle Aurore';
+
   @media screen and (max-width: 767px) {
     left: 50px;
     bottom: 8%;
+    font-size: 14px;
   }
 }
 
@@ -98,10 +102,14 @@
       font-family: 'La Belle Aurore';
       font-size: 18px;
       position: absolute;
-      margin-top: -10px;
+      margin-top: -15px;
       left: -10px;
       opacity: 0.6;
       line-height: 18px;
+
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
     }
 
     &::after {
@@ -111,9 +119,13 @@
       line-height: 18px;
       position: absolute;
       left: -30px;
-      bottom: -30px;
+      bottom: -25px;
       margin-left: 20px;
       opacity: 0.6;
+
+      @media (max-width: 767px) {
+        font-size: 14px;
+      }
     }
   }
 

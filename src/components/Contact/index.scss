@@ -54,6 +54,10 @@
         padding: 20px;
         min-height: 150px;
         box-sizing: border-box;
+
+        @media (max-width: 767px) {
+            min-height: 100px;
+        }
     }
     
     .flat-button {

@@ -46,7 +46,8 @@ const Contact = () => {
             <AnimatedLetters letterClass={letterClass} strArray={['C', 'o', 'n', 't', 'a', 'c', 't', ' ', 'm', 'e']} idx={15} />
           </h1>
           <p>
-            I'm a seasoned full-stack web developer, and this space is a testament to my dedication and expertise. If you're a fellow developer, a potential collaborator, or someone with substantial projects in the pipeline, I'm particularly eager to connect with you. I thrive on tackling larger-scale projects that pose exciting challenges.
+            I'm a seasoned full-stack web developer, and this space is a testament to my dedication and expertise.
+            If you're a fellow developer, a potential collaborator, or someone with substantial projects in the pipeline, I'm particularly eager to connect with you.
           </p>
           <div className='contact-form'>
             <form ref={refForm} onSubmit={sendEmail}>

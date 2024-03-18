@@ -30,26 +30,14 @@ const About = () => {
             />
           </h1>
           <p>
-            Hello, I'm Dathon Weber, a dedicated Full Stack Web Developer based in
-            Emporia, Kansas. In my recent role at Fenom Digital, I played a
-            pivotal role in developing and testing Progressive Web Applications
-            (PWA) and Salesforce Commerce Cloud (SFRA) e-commerce websites.
-            Notable achievements include contributing to the success of Fenom in
-            the industry and building custom cartridges for clients like
-            Casper.com and SnipesUSA.com.
+            Hello, I'm Dathon Weber, As a seasoned Full Stack Web Developer with a Bachelor's Degree in Software Development, 
+            I bring extensive expertise in various frameworks and platforms to the table.
+            Throughout my career, I've mastered tools such as React, Angular, Node.js, and more, enabling me to contribute significantly to the success of diverse projects at companies such as Fenom Digital and Dees Nail Designs.
           </p>
           <p>
-            Prior to that, at Dees Nail Designs, I
-            designed, coded, and deployed a website that led to a 66% increase in
-            appointment bookings within the first three months of going live.
-            Proficient in Angular, Express, Node.js, and MongoDB, I demonstrated
-            my versatility in web development.
-          </p>
-          <p>
-            My technical skills span languages such as React, C#, HTML, CSS, and
-            tools like Jira, Bitbucket, AWS, Visual Studio Code. Beyond my
-            technical expertise, I am driven by a genuine passion for programming
-            and a commitment to continuous learning.
+            At Fenom Digital, I played a pivotal role in elevating the company's standing within the industry by spearheading the development of cutting-edge PWA-based websites. 
+            Collaborating with renowned clients like Casper.com and SnipesUSA.com, I not only met but exceeded expectations, delivering solutions that drove substantial increases in website performance and client satisfaction. 
+            My ability to thrive in dynamic team environments, coupled with a knack for meeting tight deadlines and adapting to evolving client needs, has consistently positioned me as a valuable asset in any project setting.
           </p>
         </div>
 
