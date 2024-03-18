@@ -22,19 +22,18 @@
   nav {
     display: flex;
     justify-content: center;
-    top: 50%;
     width: 100%;
 
     a {
-      font-size: 22px;
+      font-size: 19px;
       color: #4d4d4e;
       display: block;
       line-height: 51px;
       height: 51px;
       position: relative;
       text-decoration: none;
-      padding-left: 2rem;
-      padding-right: 2rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
 
       i {
         transition: all 0.3s ease-out;
@@ -55,7 +54,7 @@
       &:after {
         content: '';
         font-size: 9px;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         position: absolute;
         bottom: 0;
         display: block;
