@@ -30,14 +30,14 @@ const About = () => {
             />
           </h1>
           <p>
-            Hello, I'm Dathon Weber, As a seasoned Full Stack Web Developer with a Bachelor's Degree in Software Development, 
-            I bring extensive expertise in various frameworks and platforms to the table.
-            Throughout my career, I've mastered tools such as React, Angular, Node.js, and more, enabling me to contribute significantly to the success of diverse projects at companies such as Fenom Digital and Dees Nail Designs.
+            Hello, I'm Dathon Weber. As a seasoned Full Stack Web Developer with a Bachelor's Degree in Software Development, 
+            I bring extensive expertise in various frameworks and platforms.
+            Throughout my career, I've mastered tools such as React, Angular, Node.js, and more, enabling me to contribute significantly to the success of diverse projects at Fenom Digital and Dees Nail Designs.
           </p>
           <p>
             At Fenom Digital, I played a pivotal role in elevating the company's standing within the industry by spearheading the development of cutting-edge PWA-based websites. 
-            Collaborating with renowned clients like Casper.com and SnipesUSA.com, I not only met but exceeded expectations, delivering solutions that drove substantial increases in website performance and client satisfaction. 
-            My ability to thrive in dynamic team environments, coupled with a knack for meeting tight deadlines and adapting to evolving client needs, has consistently positioned me as a valuable asset in any project setting.
+            Collaborating with renowned clients like Casper.com and SnipesUSA.com, I exceeded expectations, delivering solutions that increased website performance and client satisfaction. 
+            My ability to thrive in dynamic team environments and knack for meeting tight deadlines and adapting to evolving client needs has consistently positioned me as a valuable asset in any project setting.
           </p>
         </div>
 
