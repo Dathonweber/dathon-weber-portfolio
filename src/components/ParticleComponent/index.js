@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react'; // Import Particles from @tsparticles/react
 import { loadSlim } from "@tsparticles/slim"
+import Loader from 'react-loaders'
 
 const ParticleComponent = () => {
   const [init, setInit] = useState(false);
@@ -73,7 +74,11 @@ const ParticleComponent = () => {
     [],
   );
 
-  if (init) {
+    if(!init) {
+      return <Loader type='ball-pulse-sync' />
+    }
+  
+  
     return (
       <Particles
         id="tsparticles"
@@ -81,9 +86,6 @@ const ParticleComponent = () => {
         options={options}
       />
     );
-  }
-
-  return <></>;
 
 };
 
