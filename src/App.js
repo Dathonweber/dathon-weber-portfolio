@@ -6,6 +6,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import MyWork from './components/My-Work'
 import ParticleComponent from './components/ParticleComponent'
+import ResumePage from './components/Resume'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
+          <Route path='resume' element={<ResumePage/>}/>
           <Route path="my-work" element={<MyWork />} />
           <Route path="contact" element={<Contact />} />
         </Route>

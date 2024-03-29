@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './index.scss';
 import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHome, faUser, faEnvelope, faFolderOpen, faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
+import { faHome, faUser, faEnvelope, faFolderOpen, faBars, faTimes, faFileAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,6 +23,9 @@ const Navbar = () => {
           </NavLink>
           <NavLink exact="true" activeclassname="active" className="mobile-about-link" to="/about">
             <FontAwesomeIcon icon={faUser} color="#4d4d4e" />
+          </NavLink>
+          <NavLink exact="true" activeclassname="active" className="mobile-resume-link" to="/resume">
+            <FontAwesomeIcon icon={faFileAlt} color="#4d4d4e" />
           </NavLink>
           <NavLink exact="true" activeclassname="active" className="mobile-my-work-link" to="/my-work">
             <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e" />

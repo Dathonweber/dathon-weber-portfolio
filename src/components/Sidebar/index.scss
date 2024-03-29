@@ -87,6 +87,11 @@
         content: 'MY WORK';
       }
     }
+    a.resume-link {
+      &:after {
+        content: 'RESUME';
+      }
+    }
     a.contact-link {
       &:after {
         content: 'CONTACT';

@@ -34,6 +34,7 @@
       text-decoration: none;
       padding-left: 1.5rem;
       padding-right: 1.5rem;
+      width: 58px;
 
       i {
         transition: all 0.3s ease-out;
@@ -61,11 +62,13 @@
         text-align: center;
         opacity: 0;
         transition: all 0.3s ease-out;
+        margin-left: -10px;
       }
 
       &:first-child {
         &::after {
           content: 'HOME';
+          margin-left: 0px;
         }
       }
     }
@@ -73,9 +76,15 @@
     a.mobile-about-link {
       &:after {
         content: 'ABOUT';
+        margin-left: 0px;
       }
     }
 
+    a.mobile-resume-link {
+      &:after {
+        content: 'RESUME';
+      }
+    }
     a.mobile-my-work-link {
       &:after {
         content: 'MY WORK';
