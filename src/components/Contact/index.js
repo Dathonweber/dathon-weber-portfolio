@@ -76,16 +76,15 @@ const Contact = () => {
           Dathon Weber
           <br />
           United States, <br />
-          500 Stratford Drive <br />
+          Emporia Kansas <br />
           <span>dathonweber82@gmail.com</span>
         </div>
 
         <div className='map-wrap d-none d-lg-block'>
-          <MapContainer center={[38.4037691,-96.2191085]} zoom={13}>
+          <MapContainer center={[38.4037691,-96.2191085]} zoom={11}>
 
             <TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
             <Marker position={[38.4037691,-96.2191085]}>
-              <Popup>Dathon lives here, drop by and say hi :).</Popup>
             </Marker>
           </MapContainer>
         </div>

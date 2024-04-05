@@ -1,7 +1,6 @@
 import React, { useEffect, useState, useMemo } from 'react';
 import Particles, { initParticlesEngine } from '@tsparticles/react'; // Import Particles from @tsparticles/react
 import { loadSlim } from "@tsparticles/slim"
-import Loader from 'react-loaders'
 
 const ParticleComponent = () => {
   const [init, setInit] = useState(false);
@@ -20,7 +19,7 @@ const ParticleComponent = () => {
 
   const options = useMemo(
     () => ({
-      fpsLimit: 120,
+      fpsLimit: 60,
       interactivity: {
         modes: {
           push: {
@@ -57,7 +56,7 @@ const ParticleComponent = () => {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 50,
         },
         opacity: {
           value: 0.5,
@@ -73,19 +72,15 @@ const ParticleComponent = () => {
     }),
     [],
   );
-
-    if(!init) {
-      return <Loader type='ball-pulse-sync' />
+    if(init) {
+      return ( <Particles
+      id="tsparticles"
+      particlesLoaded={particlesLoaded}
+      options={options}
+    />
+      )
     }
-  
-  
-    return (
-      <Particles
-        id="tsparticles"
-        particlesLoaded={particlesLoaded}
-        options={options}
-      />
-    );
+    return <></>
 
 };
 
