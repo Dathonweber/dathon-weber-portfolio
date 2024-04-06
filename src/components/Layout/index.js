@@ -1,9 +1,13 @@
 import './index.scss'
 import Sidebar from '../Sidebar'
-import { Outlet } from 'react-router-dom'
+import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from '../navbar'
 
 const Layout = () => {
+  const location = useLocation();
+
+  const isStaticPage = location.pathname === '/resume' || location.pathname === '/my-work';
+
   return (
     <div className="App">
       <Navbar />
@@ -18,11 +22,19 @@ const Layout = () => {
 
         <Outlet />
 
-        <span className="bottom-tags">
-          &lt;/body&gt;
-          <br />
-          <span className="bottom-tag-html">&lt;/html&gt;</span>
-        </span>
+        {isStaticPage ? (
+          <span className="bottom-tags bot-tag-static">
+            &lt;/body&gt;
+            <br />
+            <span className="bottom-tag-html bot-tag-static-html">&lt;/html&gt;</span>
+          </span>
+        ) : (
+          <span className="bottom-tags">
+            &lt;/body&gt;
+            <br />
+            <span className="bottom-tag-html">&lt;/html&gt;</span>
+          </span>
+        )}
       </div>
     </div>
   )
