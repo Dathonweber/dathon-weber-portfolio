@@ -5,13 +5,11 @@ import Home from './components/Home'
 import About from './components/About'
 import Contact from './components/Contact'
 import MyWork from './components/My-Work'
-import ParticleComponent from './components/ParticleComponent'
 import ResumePage from './components/Resume'
 
 function App() {
   return (
     <>
-      <ParticleComponent />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
