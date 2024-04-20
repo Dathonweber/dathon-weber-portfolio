@@ -72,15 +72,18 @@ const ParticleComponent = () => {
     }),
     [],
   );
-    if(init) {
-      return ( <Particles
-      id="tsparticles"
-      particlesLoaded={particlesLoaded}
-      options={options}
-    />
-      )
-    }
-    return <></>
+  return (
+    <>
+      {init && (
+        <Particles
+          id="tsparticles"
+          particlesLoaded={particlesLoaded}
+          options={options}
+        />
+      )}
+    </>
+  );
+  
 
 };
 
