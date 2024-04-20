@@ -1,10 +1,15 @@
-import React, { useEffect, useState, useMemo } from 'react';
-import Particles, { initParticlesEngine } from '@tsparticles/react'; // Import Particles from @tsparticles/react
-import { loadSlim } from "@tsparticles/slim"
+import React, { Suspense, useEffect, useMemo, useState } from "react";
+import { initParticlesEngine } from "@tsparticles/react";
+import { loadSlim } from "@tsparticles/slim";
 
-const ParticleComponent = () => {
+
+// Lazy load the particles component
+const LazyParticles = React.lazy(() => import('@tsparticles/react'));
+
+const App = () => {
   const [init, setInit] = useState(false);
 
+  // this should be run only once per application lifetime
   useEffect(() => {
     initParticlesEngine(async (engine) => {
       await loadSlim(engine);
@@ -72,19 +77,18 @@ const ParticleComponent = () => {
     }),
     [],
   );
+
   return (
-    <>
+    <Suspense fallback={null}>
       {init && (
-        <Particles
+        <LazyParticles
           id="tsparticles"
           particlesLoaded={particlesLoaded}
           options={options}
         />
       )}
-    </>
+    </Suspense>
   );
-  
-
 };
 
-export default ParticleComponent;
+export default App;

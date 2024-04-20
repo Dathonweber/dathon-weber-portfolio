@@ -6,15 +6,17 @@ import About from './components/About'
 import Contact from './components/Contact'
 import MyWork from './components/My-Work'
 import ResumePage from './components/Resume'
+import ParticleComponent from '../src/components/ParticleComponent'
 
 function App() {
   return (
     <>
+      <ParticleComponent />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path='resume' element={<ResumePage/>}/>
+          <Route path='resume' element={<ResumePage />} />
           <Route path="my-work" element={<MyWork />} />
           <Route path="contact" element={<Contact />} />
         </Route>

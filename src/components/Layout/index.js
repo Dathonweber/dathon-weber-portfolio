@@ -2,7 +2,6 @@ import './index.scss'
 import Sidebar from '../Sidebar'
 import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from '../navbar'
-import ParticleComponent from '../ParticleComponent'
 
 const Layout = () => {
   const location = useLocation();
@@ -11,7 +10,6 @@ const Layout = () => {
 
   return (
     <div className="App">
-      <ParticleComponent />
       <Navbar />
       <Sidebar />
       <div className="page">
