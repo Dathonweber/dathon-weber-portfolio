@@ -6,12 +6,10 @@ import About from './components/About'
 import Contact from './components/Contact'
 import MyWork from './components/My-Work'
 import ResumePage from './components/Resume'
-import ParticleComponent from '../src/components/ParticleComponent'
 
 function App() {
   return (
     <>
-      <ParticleComponent />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
