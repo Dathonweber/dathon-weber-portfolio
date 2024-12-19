@@ -58,7 +58,7 @@ const Home = () => {
           </h1>
           <h2>
             <br />
-            Full Stack Developer / JavaScript Expert / Salesforce Commerce Cloud Expert
+            Full Stack Developer / Shopify Theme Developer / JavaScript Expert
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME{' '}
