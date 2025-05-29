@@ -12,8 +12,19 @@ import DrapersHomePage from '../src/assets/images/DrapersHomePage.png'
 import DrapersNavMenu from '../src/assets/images/DrapersNavMenu.png'
 import DrapersPLP from '../src/assets/images/DrapersPLP.png'
 import DrapersPDP from '../src/assets/images/DrapersPDP.png'
+import ElephanTeaBobaHomePage from '../src/assets/images/ElephanTeaBobaHomePage.png'
+import ElephanTeaBobaPDP from '../src/assets/images/ElephanTeaBobaPDP.png'
+import ElephanTeaBobaPLP from '../src/assets/images/ElephanTeaBobaPLP.png'
 
 const projects = [
+    {
+        projectName: "ElephanTeaBoba.com",
+        projectURL: "https://elephanteaboba.com/",
+        projectImages: [ElephanTeaBobaHomePage, ElephanTeaBobaPLP, ElephanTeaBobaPDP],
+        description: ['Configured Shopify settings, products, collections, and navigation.',
+            'Implemented custom sections and dynamic content using Liquid.', 'Enhanced interactivity and responsiveness with JavaScript and custom styling.',
+            'Account Features', 'Optimized for both desktop and mobile experiences.']
+    },
     {
         projectName: "Casper.com",
         projectURL: "https://casper.com/",
@@ -36,4 +47,4 @@ const projects = [
 ];
 
 
-export { projects};
+export { projects };
